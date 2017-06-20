@@ -23,9 +23,9 @@ import com.guaner.sender.consts.ExtraIntent;
 import com.guaner.sender.service.ScreenCastService;
 
 
-public class MainActivity extends Activity {
+public class ScreenCaptureActivity extends Activity {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "ScreenCaptureActivity";
 
     private final int REMOTE_SERVER_PORT = 49152;
 
@@ -196,9 +196,6 @@ public class MainActivity extends Activity {
         if (serviceMessenger == null) {
             return;
         }
-//        final Intent stopCastIntent = new Intent(ScreenCastService.ACTION_STOP_CAST);
-//        sendBroadcast(stopCastIntent);
-
         Message msg = Message.obtain(null, ActivityServiceMessage.STOP);
         msg.replyTo = messenger;
         try {

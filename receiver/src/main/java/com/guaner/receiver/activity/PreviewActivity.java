@@ -55,7 +55,7 @@ public class PreviewActivity extends AppCompatActivity {
      * @return device's IP address
      */
     protected String wifiIpAddress() {
-        WifiManager wifiManager = (WifiManager) getSystemService(WIFI_SERVICE);
+        WifiManager wifiManager = (WifiManager) getApplication().getApplicationContext().getSystemService(WIFI_SERVICE);
         int ipAddress = wifiManager.getConnectionInfo().getIpAddress();
 
         // Convert little-endian to big-endian if needed

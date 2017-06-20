@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.ScreenCaptureActivity"
             android:configChanges="orientation|screenLayout|uiMode|screenSize|smallestScreenSize|keyboard|keyboardHidden"
             android:launchMode="singleTask">
             <intent-filter>
