@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScreenShare.iml" filepath="$PROJECT_DIR$/ScreenShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/receiver/receiver.iml" filepath="$PROJECT_DIR$/receiver/receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sender/sender.iml" filepath="$PROJECT_DIR$/sender/sender.iml" />
+    </modules>
+  </component>
+</project>
