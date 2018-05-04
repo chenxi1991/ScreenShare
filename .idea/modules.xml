@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScreenShare.iml" filepath="$PROJECT_DIR$/ScreenShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScreenShare.iml" filepath="$PROJECT_DIR$/ScreenShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyplayerlib/easyplayerlib.iml" filepath="$PROJECT_DIR$/easyplayerlib/easyplayerlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/receiver/receiver.iml" filepath="$PROJECT_DIR$/receiver/receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/receiver/receiver.iml" filepath="$PROJECT_DIR$/receiver/receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/sender/sender.iml" filepath="$PROJECT_DIR$/sender/sender.iml" />
